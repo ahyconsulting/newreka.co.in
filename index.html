@@ -1,6 +1,7 @@
 <html>
     <head>
       <title>Newreka Coming Soon</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     </head>
     <body>
         <article>
@@ -26,8 +27,8 @@
                 </svg>
             </section>
             <div>
-                <p>Sorry for the inconvenience. We're performing some maintenance at the moment. If you want to get in touch with us, you can always <a href="mailto:nitesh.mehta@newreka.co.in">Email us</a> or call us at <a href="tel:9821913204">98219 13204</a> for updates, otherwise, we'll be back up shortly!</p>
-                <p>&mdash; Newreka Team</p>
+                <p class="msg-p">Sorry for the inconvenience. We're performing some maintenance at the moment. If you want to get in touch with us, you can always <a href="mailto:nitesh.mehta@newreka.co.in">Email us</a> or call us at <a href="tel:9821913204">98219 13204</a> for updates, otherwise, we'll be back up shortly!</p>
+                <p class="msg-p">&mdash; Newreka Team</p>
             </div>
         </article>
         <!-- The two texts -->
@@ -96,6 +97,12 @@
 
         	user-select: none;
         }
+
+        @media (max-width: 1024px) {
+            p.msg-p {
+                font-size: 60px;
+            }
+        }    
         </style>
 
         <script>
